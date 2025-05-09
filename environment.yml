@@ -1,0 +1,34 @@
+name: topo-maps
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.4
+  - pip
+  - pip:
+      - torch==2.6.0
+      - torchvision==0.21.0
+      - torchaudio
+      - lightning
+      - segmentation-models-pytorch==0.4.0
+      - wandb
+      - notebook
+      - numpy
+      - pandas
+      - geopandas
+      - matplotlib
+      - rasterio
+      - scikit-learn
+      - scikit-image
+      - exactextract
+      - ndjson
+      - labelbox
+      - opencv-python
+      - folium 
+      - mapclassify 
+      - rioxarray
+      - dask
+      - pyarrow 
+      - cartopy
+      - folium
+      - mapclassify
+      - matplotlib-scalebar

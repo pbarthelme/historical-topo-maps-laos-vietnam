@@ -1,0 +1,13 @@
+data/
+outputs/
+code/lightning_logs
+code/wandb
+
+# Labelbox API key
+api_key.txt
+
+code/__pycache__
+code/.ipynb_checkpoints
+
+*.pyc
+.Rhistory
