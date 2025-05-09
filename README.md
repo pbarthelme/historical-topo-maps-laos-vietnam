@@ -1,5 +1,5 @@
 # Large-Scale Historical Land Use Mapping in Vietnam and Laos using military topographic maps
-This is the code repository for the manuscript Large-Scale Historical Land Use Mapping in Vietnam and Laos using military topographic maps (in submission).
+This is the code repository for the manuscript **Large-Scale Historical Land Use Mapping in Vietnam and Laos using military topographic maps** (in submission).
 
 ## Setup
 This implementation uses Python 3.12.4 in combination with multiple other packages specified in the `./environment.yml` file. A conda environment with the corresponding packages can be created using the command `conda env create -f environment.yml`. For exact package versions used during the analysis, refer to `./environment_detailed.yml`.
