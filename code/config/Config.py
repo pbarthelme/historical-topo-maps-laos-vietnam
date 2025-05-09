@@ -49,7 +49,7 @@ class Config:
         ### Preprocessing 
         # Input
         # Map sheet index
-        self.map_sheet_folder = "../../topo-maps-paper/data/raw/map_sheets" #f"{self.input_folder}/map_sheets"
+        self.map_sheet_folder = f"{self.input_folder}/map_sheets"
         self.map_sheet_index_path = f"{self.input_folder}/map_sheet_index.csv" 
         self.map_sheet_index_geo_path = f"{self.input_folder}/map_sheet_index_geo.geojson" 
         self.map_sheet_index_geo_overedge_path = f"{self.input_folder}/map_sheet_index_geo_overedge.geojson" 
